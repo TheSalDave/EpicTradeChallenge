@@ -45,8 +45,8 @@ class Trader:
     decay_factors = {
         "PEARLS" : 0.99,
         "BANANAS" : 0.9,
-        "COCONUTS" : 0.9,
-        "PINA_COLADAS" : 0.9
+        "COCONUTS" : 0.7,
+        "PINA_COLADAS" : 0.7
     }
 
     def run(self, state: TradingState):
